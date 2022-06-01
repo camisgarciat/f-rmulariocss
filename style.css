@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#titulo{
+    font-family: Helvetica;
+    color: darkcyan;
+}
+
+#subtitulo{
+    font-family: Helvetica;
+    color: darkturquoise;
+}
+
+fieldset{
+    border: 0;
+    
+}
+
+body{
+    background-color:lightcyan;
+    font-family: Helvetica;
+    font-size: 1em;
+    color:blue;
+    margin-left: 10%;
+    margin-top:3%;
+
+}
+
+input,select,textarea,button{
+    border-radius: 5px;
+}
+
+.campo label {
+    margin-bottom: 1 em;
+    color: darkblue;
+    display: block;
+}
+
+.campo input [type="text"] .campo input[type="email"]{
+    padding: 0.2 em;
+    border:1px solid 	#6495ed
+    box-shadow: 2px 2px 2px (0,0,0,0.2)
+}
+
+.botao {
+    font-size: 1.5 em;
+    background:lightblue;
+    border:0;
+    margin-bottom: 1em;
+    
+}
